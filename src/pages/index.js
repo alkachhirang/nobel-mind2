@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import Image from "next/image";
-import Backtotop from '../../public/assets/images/png/backtotop.png';
+import Backtotop from '../../public/assets/images/web.p/backtotop.webp';
 import { Outfit, Exo_2 } from "next/font/google";
 import Header from "../../public/components/Header";
 import Vision from "../../public/components/Vision";

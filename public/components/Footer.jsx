@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { Facebook, Instagram, Twitter, In } from './Iconimg';
-import footerlogo from '../assets/images/png/footer-logo.png';
+import footerlogo from '../assets/images/web.p/footer-logo.webp';
 import Link from 'next/link';
 
 const Footer = () => {

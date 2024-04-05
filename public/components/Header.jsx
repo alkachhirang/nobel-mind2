@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Navlogo, Starsvg } from './Iconimg'
 import Link from 'next/link';
 import Commonbtn from './Commonbtn';
-import heroimg from '../assets/images/png/header-2.webp';
+import heroimg from '../assets/images/web.p/header-2.webp';
 import triangleimg from '../assets/images/png/triangle-img.png';
 
 const Header = () => {

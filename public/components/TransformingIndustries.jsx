@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { Onesvg, Twosvg, Threesvg } from './Iconimg';
 import Image from "next/image";
-import Drivingimg from '../assets/images/png/driving-img.png';
+import Drivingimg from '../assets/images/web.p/driving-img.webp';
 import triangleimg from '../assets/images/png/triangle-img.png';
 const TransformingIndustries = () => {
     const settings = {

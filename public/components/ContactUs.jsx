@@ -1,6 +1,6 @@
 'use client';
 import React, { useState, useEffect } from 'react'
-import contactimg from '../assets/images/png/contact-img.png';
+import contactimg from '../assets/images/web.p/contact-img.webp';
 import Image from 'next/image';
 import Commonbtn from './Commonbtn';
 

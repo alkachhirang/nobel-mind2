@@ -2,7 +2,7 @@ import React from 'react';
 import Image from "next/image";
 import { Starsvg } from './Iconimg'
 import Commonbtn from './Commonbtn';
-import visionimg from '../assets/images/png/vision-img.webp';
+import visionimg from '../assets/images/web.p/vision-img.webp';
 import triangleimg from '../assets/images/png/triangle-img.png';
 
 const Vision = () => {
