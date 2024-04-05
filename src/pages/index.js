@@ -60,9 +60,9 @@ export default function Home() {
 
     <div>
       {screenLoading ? (
-      <Preloader/>
+        <Preloader />
       ) : (
-        <main className={`${exo_2.className}`}>
+        <main className={`${exo_2.className} overflow-hidden`}>
           <Header />
           <Vision />
           <TransformingIndustries />

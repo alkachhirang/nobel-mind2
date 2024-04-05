@@ -11,7 +11,7 @@ const Preloader = () => {
             <Image src={triangleimg2} alt="triangleimg" className='absolute left-[20%] bottom-[20%] w-full max-w-[40px] zoom-in-out-box' />
             <Image src={triangleimg2} alt="triangleimg" className='absolute right-[20%] bottom-[15%] w-full max-w-[40px] zoom-in-out-box' />
             <Image src={triangleimg2} alt="triangleimg" className='absolute right-[50%] top-[15%] w-full max-w-[40px] zoom-in-out-box' />
-            <div className='flex items-center justify-center flex-col min-h-screen bg-btn-gradient'>
+            <div className='flex items-center fixed justify-center flex-col min-h-screen bg-btn-gradient'>
                 <h2 className='text-[50px] ff-outfit  font-bold text-[#fdfdff] text-center '>
                     <Typewriter
                         options={{
