@@ -147,7 +147,7 @@ const ContactUs = () => {
                             </div>
                         )}
                     </div>
-                    <div className='lg:w-[49%] w-full mt-[25px] lg:mt-0' data-aos="fade-left">
+                    <div className='lg:w-[50%] w-full mt-[25px] lg:mt-0' data-aos="fade-left">
                         <Image src={contactimg} alt="contactimg" className='rounded-[12px] w-full h-[360px] sm:h-[420px] lg:h-full object-cover' />
                     </div>
                 </div>

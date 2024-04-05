@@ -24,7 +24,7 @@ const Header = () => {
       <Image src={heroimg} alt="heroimg" className='absolute left-0 right-0 top-0 bottom-0 w-full h-full object-cover opacity-10 lg:hidden block ' />
       <div className='container xl:max-w-[1164px] mx-auto px-3 relative z-[2]'>
         <div className='py-[19px] flex justify-between items-center'>
-          <Link href={'/'}>
+          <Link href={"/"}>
             < Navlogo />
           </Link>
           <ul
@@ -68,7 +68,7 @@ const Header = () => {
             <Starsvg />
             <p className='font-normal capitalize text-[#131200] text-[16px] leading-[100%]'>AI With Noble Mind</p>
           </div>
-          <p className='ff_outfit font-lighter text-[36px] sm:text-[64px] leading-[109%] mb-[16px] lg:text-start text-center'>Inspiring Innovation, <span className='lg:block'>Elevating Solutions – <span className='font-semibold'>Noble Mind"</span></span></p>
+          <p className='ff_outfit font-lighter text-[36px] sm:text-[64px] leading-[109%] mb-[16px] lg:text-start text-center'>Inspiring Innovation, <span className='lg:block'>Elevating Solutions – <span className='font-semibold leading-[70px]'>Noble Mind"</span></span></p>
           <p className='text-[#000000] opacity-[70%] font-normal text-[14px] sm:text-[16px] leading-[152%] lg:text-start text-center'>At Noble Mind is a forward-thinking AI specialised company dedicated to reshaping the future of how we live, work, and learn. Our mission is to create ground-breaking AI solutions for Healthcare, Education, and beyond, aligning <span className='lg:block'>with Saudi Arabia’s Vision 2030.”</span></p>
         </div>
       </div>
