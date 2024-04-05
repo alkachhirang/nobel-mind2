@@ -13,9 +13,9 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "btn-gradient": "linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%)",
-        'Bghero': "url('/assets/images/web.p/hero-bg-img.png')",
-        'Bgnewsletter': "url('/assets/images/web.p/newsletter-bg-img.png')",
-        'Bgfooter': "url('/assets/images/web.p/footer-bg-img.png')",
+        'Bghero': "url('/assets/images/web.p/hero-bg-img.webp')",
+        'Bgnewsletter': "url('/assets/images/web.p/newsletter-bg-img.webp')",
+        'Bgfooter': "url('/assets/images/web.p/footer-bg-img.webp')",
       },
       backgroundSize: {
         'bgsize': "100% 100%"
