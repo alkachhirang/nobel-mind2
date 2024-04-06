@@ -23,7 +23,7 @@ const Faq = () => {
                 <h2 className='ff_outfit font-lighter text-[30px] sm:text-[40px] md:text-[48px] capitalize  text-center leading-[120%] mb-[16px]' data-aos="fade-down">Frequently <span className='font-semibold'>Asked Questions</span></h2>
                 <p className='text-[#131200] opacity-[70%] font-normal text-[14px] sm:text-[16px] leading-[150%] text-center' data-aos="fade-down">Lorem ipsum dolor sit amet consectetur. Orci augue mollis eu <span className='lg:block'>volutpat mi leo. Nibh nisl consequat metus.</span></p>
 
-                <div className="flex flex-col w-full gap-[18px] max-w-[780px] mx-auto overflow-hidden px-5 sm:py-[50px] py-[20px]" data-aos="zoom-in-up">
+                <div className="flex flex-col w-full gap-[18px] max-w-[780px] mx-auto overflow-hidden px-5 sm:py-[50px] py-[30px]" data-aos="zoom-in-up">
                     <Accordion open={open === 1} className={`${open === 1 ? "border border-b-[6px] border-[#A854E9]" : "border-[#A854E933] border"}  border-solid  rounded-md p-6 shadow-[0px_4px_32px_0px_#00000014]`}>
                         <AccordionHeader onClick={() => handleOpen(1)} className="p-0 flex acc1 justify-between w-full items-center border-none"><p className="ff_outfit text-[16px] font-semibold text-[#000000] leading-[150%] ">What is Artificial Intelligence (AI)?</p> <div className={`${open === 1 ? "rotate-180" : ""} transition-all ease-linear duration-200`}><AccBtn /></div></AccordionHeader>
                         <AccordionBody className="p-0 mt-3 text-[16px] font-normal leading-[150%] opacity-70 text-[#000000]">
