@@ -22,7 +22,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className='md:w-[60%] w-full flex md:justify-end mt-[40px] md:mt-0'>
-                        <div className='flex gap-[64px]'>
+                        <div className='flex lg:gap-[64px] gap-[120px] max-sm:gap-[63px]'>
                             <ul className=''>
                                 <li className='ff_outfit font-semibold text-[16px] text-[#FFFFFF] mb-[16px] leading-[120%] inline-block'>Maine</li>
                                 <li><Link href={'#home'} className='font-normal text-[#FDFDFF] opacity-[70%] text-[16px] leading-[100%] inline-block mb-[14px] hover:opacity-[100%] transition-all duration-300 ease-linear after:absolute relative after:w-[0] after:h-[1.3px] after:bg-[#ffffff] after:left-[50%] hover:after:left-0 after:bottom-[-4px] after:rounded-[5px] hover:after:w-full after:transition-all after:duration-300 after:ease-linear '>Home</Link></li>

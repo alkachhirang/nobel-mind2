@@ -14,7 +14,7 @@ const Vision = () => {
                     <div className='lg:w-[48%] w-full' data-aos="fade-right">
                         <Image src={visionimg} alt="visionimg" className='rounded-tr-[50px] w-full object-cover object-right h-[360px] sm:h-[420px] lg:h-full' />
                     </div>
-                    <div className='lg:w-[46%] w-full lg:mt-0 mt-10' data-aos="fade-left">
+                    <div className='lg:w-[46%] w-full lg:mt-0 sm:mt-[30px] mt-[16px] ' data-aos="fade-left">
                         <div className='flex items-center gap-[6px] mb-[8px] lg:justify-start justify-center'>
                             <Starsvg />
                             <p className='font-normal capitalize text-[#131200] text-[16px] leading-[100%]'>About Us</p>
