@@ -92,7 +92,7 @@ const ContactUs = () => {
                                     )}
                                 </div>
                                 <div className="form-group w-full md:max-w-[360px] lg:max-w-[233px]" >
-                                    <label className='font-normal text-[#131200] text-[16px] opacity-[70%]' htmlFor="lastname">Lastname</label>
+                                    <label className='font-normal text-[#131200] text-[16px] opacity-[70%]' htmlFor="lastname">LastName</label>
                                     <input className='outline-none border-solid border-[1px] border-[#13120033] p-[11px] w-full rounded-[5px]'
                                         type="text"
                                         id="lastname"
