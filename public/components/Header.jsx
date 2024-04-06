@@ -19,7 +19,7 @@ const Header = () => {
     }
   })
   return (
-    <div className='lg:bg-Bghero bg-cover bg-top bg-no-repeat sm:h-[560px] lg:h-[810px] relative'>
+    <div className='lg:bg-Bghero max-w-[1440px] mx-auto bg-cover bg-top bg-no-repeat sm:h-[560px] lg:h-[810px] relative'>
       <Image src={triangleimg} alt="triangleimg" className='absolute left-[2%] bottom-[-4%] lg:bottom-[3%] w-full max-w-[70px]' />
       <Image src={heroimg} alt="heroimg" className='absolute left-0 right-0 top-0 bottom-0 w-full h-full object-cover opacity-10 lg:hidden block ' />
       <div className='container xl:max-w-[1164px] mx-auto px-3 relative z-[2]'>
