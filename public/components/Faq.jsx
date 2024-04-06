@@ -16,7 +16,7 @@ const Faq = () => {
 
 
     return (
-        <div className='xl:pt-[100px] lg:pt-[40px] md:pt-[20px] xl:pb-[30px] lg:pb-[20px] py-[50px] sm:py-0 relative'>
+        <div className='xl:pt-[150px] lg:pt-[90px] md:pt-[70px] xl:pb-[90px] lg:pb-[50px] max-sm:py-[50px] relative'>
             <Image src={triangleimg} alt="triangleimg" width={100} className='absolute sm:max-w-[70px] max-w-[50px] left-[2%] top-[12%] lg:block hidden' />
             <Image src={triangleimg} alt="triangleimg" width={100} className='absolute sm:max-w-[70px] max-w-[50px] right-[2%] bottom-[28%] lg:block hidden' />
             <div id='FAQ' className='container mx-auto xl:max-w-[1164px] px-3'>
